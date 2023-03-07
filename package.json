@@ -32,7 +32,7 @@
     "build": "rollup -c",
     "dev": "pnpm run build --watch",
     "lint": "eslint .",
-    "release": "bumpp --commit --push --tag && npm publish",
+    "release": "bumpp --commit --push --tag",
     "test": "vitest",
     "cover": "vitest run --coverage",
     "start": "esno src/index.ts"
