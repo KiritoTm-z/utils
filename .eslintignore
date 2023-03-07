@@ -1,3 +1,6 @@
+coverage
 dist
+dts
 node_modules
 *.d.ts
+rollup.config.js
