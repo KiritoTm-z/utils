@@ -32,7 +32,6 @@
     "build": "rollup -c",
     "dev": "pnpm run build --watch",
     "lint": "eslint .",
-    "release": "bumpp --commit --push --tag",
     "test": "vitest",
     "cover": "vitest run --coverage",
     "start": "esno src/index.ts"
@@ -46,7 +45,6 @@
     "@typescript-eslint/eslint-plugin": "^5.54.0",
     "@typescript-eslint/parser": "^5.54.0",
     "@vitest/coverage-c8": "^0.29.2",
-    "bumpp": "^9.0.0",
     "esbuild": "^0.17.11",
     "eslint": "^8.35.0",
     "esno": "^0.16.3",
